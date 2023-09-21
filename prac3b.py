@@ -8,12 +8,14 @@ X, Y = make_blobs(n_samples=500, centers=2,
                   random_state=0, cluster_std=0.40)
 import matplotlib.pyplot as plt
 # plotting scatters 
+plt.figtext(0.5,0.95,'Name: Chetan Yadav \n Rollno:2352043',fontsize=11,ha="center",va="center")
 plt.scatter(X[:, 0], X[:, 1], c=Y, s=50, cmap='spring');
 plt.show() 
 # creating linspace between -1 to 3.5 
 xfit = np.linspace(-1, 3.5)
   
 # plotting scatter
+plt.figtext(0.5,0.95,'Name: Chetan Yadav \n Rollno:2352043',fontsize=11,ha="center",va="center")
 plt.scatter(X[:, 0], X[:, 1], c=Y, s=50, cmap='spring')
   
 # plot a line between the different sets of data
