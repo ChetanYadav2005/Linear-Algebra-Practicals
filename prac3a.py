@@ -28,3 +28,4 @@ plt.scatter(X[:, 0], X[:, 1],
             c=y,
             s=20, edgecolors="k")
 plt.show()
+
