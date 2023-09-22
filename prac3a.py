@@ -23,7 +23,6 @@ DecisionBoundaryDisplay.from_estimator(
         xlabel=cancer.feature_names[0],
         ylabel=cancer.feature_names[1],
     )
-plt.figtext(0.5,0.95,'Name: Chetan Yadav \n Rollno:2352043',fontsize=11,ha="center",va="center")
 # Scatter plot
 plt.scatter(X[:, 0], X[:, 1],
             c=y,
